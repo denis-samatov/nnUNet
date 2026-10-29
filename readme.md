@@ -1,3 +1,5 @@
+> Fork purpose, attribution and qualification limits: [FORK_SCOPE.md](FORK_SCOPE.md).
+
 # nnU-Net
 
 nnU-Net is a semantic segmentation framework that automatically adapts its pipeline to a dataset. It analyzes the training data, creates a dataset fingerprint, configures suitable U-Net variants, and provides an end-to-end workflow from preprocessing to training, model selection, and inference.
