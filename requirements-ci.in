@@ -1,0 +1,9 @@
+# CPU path contracts and package build only; not GPU/runtime training environment.
+pytest==9.2.0
+numpy>=2.4,<3
+batchgenerators>=0.25.1,<0.26
+build==1.6.1
+setuptools==84.2.1
+wheel==0.48.0
+pip-audit==2.10.1
+ruff==0.17.3
