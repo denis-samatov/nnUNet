@@ -1,5 +1,7 @@
 # Working in the nnU-Net repository
 
+If repository documentation conflicts with the existing code, follow the conventions established in the code and report each discrepancy you find between the documentation and the code in your final response.
+
 Notes for coding agents and new contributors. This file is about *how to change this codebase safely*;
 it does not duplicate the user documentation.
 
