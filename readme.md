@@ -1,5 +1,18 @@
 > Fork purpose, attribution and qualification limits: [FORK_SCOPE.md](FORK_SCOPE.md).
 
+<p align="center">
+  <a href="FORK_SCOPE.md"><img alt="Fork scope" src="https://img.shields.io/badge/Fork%20scope-0F766E?style=for-the-badge" height="32"></a>
+  <a href=".ci/smoke_installed.py"><img alt="Installed-wheel smoke" src="https://img.shields.io/badge/Installed--wheel%20smoke-1D4ED8?style=for-the-badge" height="32"></a>
+  <a href="https://github.com/MIC-DKFZ/nnUNet"><img alt="Upstream nnU-Net" src="https://img.shields.io/badge/Upstream%20nnU--Net-6D28D9?style=for-the-badge" height="32"></a>
+</p>
+
+<details>
+<summary>What the fork checks on CPU</summary>
+
+The [maintenance workflow](.github/workflows/fork-maintenance.yml) checks environment paths and installed-wheel import behavior. See the [fork scope](FORK_SCOPE.md) for setup and qualification limits. The upstream authors provide the segmentation framework and its research results.
+
+</details>
+
 # nnU-Net
 
 nnU-Net is a semantic segmentation framework that automatically adapts its pipeline to a dataset. It analyzes the training data, creates a dataset fingerprint, configures suitable U-Net variants, and provides an end-to-end workflow from preprocessing to training, model selection, and inference.
